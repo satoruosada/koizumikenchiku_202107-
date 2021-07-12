@@ -1,0 +1,351 @@
+.he-md {
+  height: 330px;
+}
+.he-md2 {
+  height: 400px;
+}
+.he-lr {
+  height: 530px;
+}
+.he-bg {
+  height: 450px;
+}
+.po-md {
+  position: relative;
+  top: 25px;
+}
+.bor-left {
+  border-left: none;
+}
+
+.contwrap__inner {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.contwrap__title-wrapper {
+  font-weight: 700;
+  font-size: 2.8rem;
+  color: #64b3ce;
+  padding-bottom: 50px;
+  width: 340px;
+  margin: 0 auto;
+}
+.contwrap__title {
+  background: linear-gradient(transparent 72%, #fcef32 0%);
+}
+
+.contwrap__row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.contwrap__img {
+  background-image: url(../new_assets/showroom/main_img01.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: calc(40% - 50px);
+}
+.contwrap__img::after {
+  content: "";
+  display: block;
+  padding-top: 70%;
+}
+.contwrap__txt {
+  width: 60%;
+  font-size: 16px;
+  line-height: 1.75;
+  text-align: left;
+}
+
+iframe img {
+  width: 100%;
+}
+
+.contwrap__panel-title {
+  font-size: 28px;
+  color: #64b3ce;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.contwrap__panels {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.contwrap__panel {
+  width: 30%;
+}
+.contwrap__yajirushi {
+  width: 10%;
+}
+
+.contwrap02__booking-02 {
+  width: 48%;
+}
+.contwrap02__booking-03 {
+  width: 52%;
+}
+.contwrap02__booking-05 {
+  width: 48%;
+}
+.contwrap02__booking-06 {
+  width: 52%;
+}
+.contwrap02__booking-07 {
+  width: 48%;
+}
+.contwrap02__booking-08 {
+  width: 52%;
+}
+
+.contwrap02__inner {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.contwrap02__soudan {
+  background-color: #64b3ce;
+  height: 360px;
+  width: 100%;
+  position: relative;
+}
+
+.contwrap02__soudan-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.contwrap02__title {
+  font-size: 2.8rem;
+  color: #64b3ce;
+  font-weight: 700;
+  margin-top: 50px;
+}
+
+.contwrap02__booking {
+  /* background-color: #f2f2f2;
+	box-sizing: border-box; */
+}
+
+.contwrap02__booking-ttl {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-top: 90px;
+  margin-bottom: 30px;
+}
+.contwrap02__booking-back {
+  /* background-color: #ffffff;
+	box-sizing: border-box; */
+}
+.contwrap02__booking-border {
+  border-right: none;
+  border-bottom: 30px solid #f2f2f2;
+  border-left: 30px solid #f2f2f2;
+}
+.contwrap02__booking-border02 {
+  border-top: none !important;
+  border: 30px solid #f2f2f2;
+}
+
+.contwrap02__booking-row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.contwrap02__booking-row span {
+  font-size: 16px;
+  font-weight: 700;
+  margin-left: 20px;
+  text-align: left;
+}
+.contwrap02__nagare-img01 {
+  width: 90%;
+  margin-top: 40px;
+}
+.contwrap02__nagare-img02,
+.contwrap02__nagare-img03 {
+  margin-top: 50px;
+}
+.contwrap02__nagare-img04 {
+  margin-top: 60px;
+  margin-right: 80px;
+}
+.contwrap02__nagare-img05,
+.contwrap02__nagare-img06 {
+  margin-top: 55px;
+}
+.contwrap02__nagare-img07,
+.contwrap02__nagare-img08 {
+  margin-top: 50px;
+}
+
+.contwrap02__wrapper-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.contwrap02__btn {
+  position: relative;
+  width: 430px;
+  margin: 40px auto 150px;
+}
+.contwrap02__btn > a {
+  display: block;
+  cursor: pointer;
+}
+.contwrap02__btn::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  transform: translate(-10%, -50%);
+  background-image: url(../new_assets/showroom/btn_img01.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 10px;
+  height: 15px;
+}
+.btn {
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 50px;
+  background: #f6df4d;
+  border: none;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 959px) {
+  .he-lr {
+    height: 370px;
+  }
+  .pb {
+    padding: 60px 0 !important;
+  }
+
+  .contwrap__title-wrapper {
+    font-size: 1.8rem;
+    width: 230px;
+  }
+
+  .contwrap__row {
+    flex-direction: column;
+  }
+  .contwrap__img {
+    width: 100%;
+    margin: 20px 0 0 0;
+  }
+  .contwrap__img::after {
+    padding-top: 50%;
+  }
+  .contwrap__txt {
+    width: 100%;
+  }
+
+  .contwrap02__soudan {
+    height: 290px;
+  }
+  .contwrap02__title {
+    font-size: 1.8rem;
+  }
+  .contwrap02__boking-ttl {
+    font-size: 1.8rem;
+  }
+  .contwrap02__wrapper-row {
+    flex-direction: column;
+  }
+  .contwrap02__booking-02 {
+    width: 100%;
+  }
+  .contwrap02__booking-03 {
+    width: 100%;
+  }
+  .contwrap02__booking-05 {
+    width: 100%;
+  }
+  .contwrap02__booking-06 {
+    width: 100%;
+  }
+  .contwrap02__booking-07 {
+    width: 100%;
+  }
+  .contwrap02__booking-08 {
+    width: 100%;
+  }
+  .contwrap02__booking-border {
+    border-right: 30px solid #f2f2f2;
+  }
+  .contwrap02__nagare-img01 {
+    object-fit: contain;
+    height: 55%;
+  }
+  .contwrap02__btn {
+    margin: 40px auto 100px;
+  }
+  .contwrap02__booking-ttl {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .contwrap__view img {
+    height: 400px !important;
+  }
+
+  .contwrap__panels {
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  .contwrap__panel {
+    width: 100%;
+  }
+  .contwrap__yajirushi {
+    transform: rotate(90deg);
+    margin: 30px 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  .contwrap02__soudan {
+    height: 200px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .he-bg {
+    height: 350px;
+  }
+  .contwrap02__btn {
+    width: 100%;
+  }
+  .contwrap02__soudan-wrapper {
+    width: 60%;
+  }
+  .contwrap02__nagare-img02 {
+    width: 80%;
+  }
+  .contwrap02__nagare-img05,
+  .contwrap02__nagare-img06,
+  .contwrap02__nagare-img07,
+  .contwrap02__nagare-img08 {
+    width: 80%;
+  }
+  .contwrap02__booking-row span {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .contwrap02__title {
+    font-size: 1.5rem;
+  }
+}
