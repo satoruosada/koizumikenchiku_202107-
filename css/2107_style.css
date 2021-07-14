@@ -43,7 +43,7 @@
   align-items: center;
 }
 .contwrap__img {
-  background-image: url(../new_assets/showroom/main_img01.png);
+  background-image: url(../../images/showroom/main_img01.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -84,6 +84,8 @@ iframe img {
 }
 .contwrap__yajirushi {
   width: 10%;
+  position: relative;
+  top: 30px;
 }
 
 .contwrap02__booking-02 {
@@ -208,7 +210,7 @@ iframe img {
   top: 50%;
   right: 5%;
   transform: translate(-10%, -50%);
-  background-image: url(../new_assets/showroom/btn_img01.png);
+  background-image: url(../../images/showroom/btn_img01.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -314,6 +316,7 @@ iframe img {
   .contwrap__yajirushi {
     transform: rotate(90deg);
     margin: 30px 0;
+    top: 0;
   }
 }
 @media screen and (max-width: 600px) {
